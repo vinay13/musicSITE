@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#playerContainer { 
+		background-color: #f0f0f0; 
+		width: 400px; 
+		height: 74px;
+		padding: 8px;
+		border: 1px solid #d0d0d0;
+	}
+	
+	#playerControls { list-style: none; padding: 0px; margin: 0px }
+
+	#playerControls li { 
+		display: block; 
+		width: 32px; 
+		height: 32px; 
+		float: left; 
+		text-indent: -9999px;
+		cursor: pointer;
+	}
+	
+	li#jplayer_play  { background: url('images/control_play.png'); }
+	li#jplayer_pause { background: url('images/control_pause.png'); }
+	li#jplayer_stop  { background: url('images/control_stop.png'); }
+	li#jplayer_prev  { background: url('images/control_rewind.png'); }
+	li#jplayer_next  { background: url('images/control_fastforward.png'); }
+	
+	#playerProgress { 
+		background-color: #ffffff; 
+		height: 32px; 
+		width: 256px; 
+		float: left;
+		margin-left: 16px;
+	}
+	
+	#jplayer_load_bar { background-color: #e0e0e0; height: 32px; width: 0%; }
+	#jplayer_play_bar { background-color: #1384bb; height: 32px; width: 0%; }
+	
+	#playerSongInfo { 
+		background-color: #e0e0e0;
+		height: 24px;
+		width: 390px;
+		padding: 4px;
+		margin-top: 8px;
+		float: left;
+		border: 1px solid #c0c0c0;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+	}
+	

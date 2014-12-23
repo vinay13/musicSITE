@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+	{
+		width:3663px;
+		overflow:none;
+	}
+	a{
+		color:#aeaeae;
+		text-decoration:none;
+		font-size:18px;
+	}
+	div
+	{
+		
+	
+		display:inline-block;
+		border-radius:5px;
+		align:center;
+		
+	}
+	
+	
+
+	#purple
+		{
+		
+		height:240px;
+		width:240px;
+		background-color:black;
+		align:left;
+		margin:0;
+		padding:0;
+		z-index:900;
+		
+	}
+	#counter{	
+	
+		top:20px;
+		left:20px;
+		font-size:16px;
+		color:#aeaeae;
+		width:20px;
+		font-weight:bold;
+		height:20px;
+		
+		
+	}	
+	#nav
+	{
+	margin:0px;
+	padding:0px;
+	position:fixed;
+	height:85px;
+	width:100%;
+	top:0;
+	z-index:10000;
+	
+	
+	}
+
+
+	#nav li
+	{
+	display:inline;
+	}
+
+	#nav li a
+	{
+	font-family:arial;
+	font-size:16px;
+	text-decoration:none;
+	float:left;
+	padding:35px;
+	background-color:#222222;
+	color:#ffffff;
+	border-bottom:1px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	
+
+	}
+
+	#nav li a:hover
+	{
+	background-color:#9b1c26;
+	padding-bottom:32px;
+	border-bottom:2px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	
+	}
+	
+	.grid-item-description{
+		color:#9b1c26;
+		height:40;
+	}
+	
+	#main-grid{
+		width:13668px;
+		height:500px;
+		width:100%;
+		background-color:grey;
+			
+		
+		overflow:hidden;
+		position:relative;
+		top:0;
+	}
+	
+	.entity-label{
+		width: 200px;
+		text-align:center;
+		height:20px;
+		bottom:5px;
+		left: 50px;
+		font-size: 18px;
+		color:#9b1c26;
+		line-height: 1.2em;
+		display: block;
+		
+	}
+	
+	
+	
+	#title-div{
+		margin:0px;
+		padding:0px;
+		height:85px;
+		width:100%;
+		background-color:white;
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	#player-div{
+		margin:0px;
+		padding:0px;
+		height:85px;
+		width:100%;
+		background-color:#ED8029;
+		
+		bottom:0;
+		position:fixed;
+		z-index:10000;
+		
+	}
+	
+	
+	#player_wrap {
+		width: 508px;
+		height: 32px;
+		background: #E1E1E1;
+		text-align: left;
+		margin-top: 9px;
+		position: absolute;
+		right: 30px;
+		top: 20px;
+}
+	#player-bar .right {
+		text-align: right;
+		position: absolute;
+		right: 0;
+		padding: 16px 25px;
+		
+}
+	
+	.quote{
+		font-size:13px;
+		font-weight:bold;
+		width: 400px;
+		padding-top: 20px;
+		text-align: right;
+		margin-right: 200px;
+		position:relative;
+		color:white;
+		top:10px;
+	}
+	#player{
+		border-radius:0;
+		width: 300px;
+		height: 32px;
+		background: rgb(124, 107, 107);
+		text-align: left;
+		margin-top: 50px;
+		right: 30px;
+		top: 30px;
+	}
+	
+	.equalizer{
+		width:14px;
+		height:10px;
+	}
+	.artist{
+		width:49px;
+		height:17px;
+		color:black;
+	}
+	.track-title{
+		color:black;
+		font-weight:bold;
+	}
+	
+	#player-controls{
+		
+		height: 16px;
+		right: 5px;
+		top: 9px;
+		position: absolute;
+		width: 35%;
+		font-weight: bold;
+		color: #000;
+		min-width: 220px;
+	}
+	#main-grid div{
+		opacity:1;
+	}
